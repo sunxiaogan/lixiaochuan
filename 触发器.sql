@@ -15,7 +15,7 @@ where account.saving_id = @delete_saving_id
 if  @num = 0 
 	begin 
 	print('É¾³ý³É¹¦')
-	rollback
+	
 	end
 	else 
 	begin
